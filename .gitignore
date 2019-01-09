@@ -1,0 +1,5 @@
+/node_modules/
+/build/publish/*
+/build/tests/*
+/lib/*
+package-lock.json

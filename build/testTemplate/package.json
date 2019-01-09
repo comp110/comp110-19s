@@ -1,0 +1,16 @@
+{
+  "name": "introcs-test-project",
+  "version": "0.0.0",
+  "description": "This is just a test project",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "introcs": "^0.5.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "ignore-styles": "^5.0.1",
+    "mocha": "^3.5.3",
+    "source-map-support": "^0.4.16"
+  }
+}
