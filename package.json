@@ -7,7 +7,8 @@
     "pull": "git checkout -- package.json && git pull origin master && npm install --loglevel=error",
     "test": "node build/test.js",
     "test-bundle": "node build/bundleTest.js",
-    "sos": "rm -rf ./node_modules && rm package-lock.json && git checkout -- package.json && npm install"
+    "sos": "rm -rf ./node_modules && rm package-lock.json && git checkout -- package.json && npm install",
+    "repl": "./node_modules/.bin/ts-node"
   },
   "author": "",
   "license": "ISC",
