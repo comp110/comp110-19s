@@ -19,7 +19,7 @@ export let main = async () => {
         // Append Pizza to order
         order[order.length] = pizza;
         // Add another Pizza?
-        isOrdering = await promptString("Order another? yes / no") === "yes";
+        isOrdering = "yes" === await promptString("Order another? yes / no");
     }
 
     print("The order is...");
@@ -39,10 +39,7 @@ let orderPrice = (pizzas: Pizza[]): number => {
     let total = 0;
 
     // TODO: Calculate the total price of an array of Pizzas
-    for (let i = 0; i < pizzas.length; i++) {
-        total += price(pizzas[i]);
-    }
-
+    
     return total;
 };
 

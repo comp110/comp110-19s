@@ -16,7 +16,7 @@ export let main = async()  => {
 
 };
 
-let filterDoubleDigitPoints = (games: Game[]): Game[] => {
+let filter20Points = (games: Game[]): Game[] => {
     let matches: Game[] = [];
     
     // TODO
