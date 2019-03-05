@@ -16,14 +16,16 @@ class Point {
 }
 
 export let main = async () => {
-
     let a = new Point();
-    print(a);
-    // TODO #2: Call translate again
-    print(a);
-    // TODO #3: Call translate again
-    print(a);
+    print(a.toString());
 
+    // TODO #2: Call translate
+
+    print(a.toString());
+
+    // TODO #3: Call translate again
+
+    print(a.toString());
 };
 
 main();
