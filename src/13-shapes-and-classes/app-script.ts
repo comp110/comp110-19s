@@ -24,8 +24,7 @@ artboard.autoScale = false;
 /** Begin main program */
 export let main = async () => {
     let shapes = new Group();
-    let c = new Circle(50, 50, 50);
-    shapes.add(c);
+
     artboard.render(shapes);
 };
 
