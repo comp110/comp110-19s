@@ -58,7 +58,6 @@ export class GameOfLife {
      */
     step(): void {
         let next: number[][] = array2d(this.rows, this.cols, 0);
-        let cells: number[][] = this.cells;
         
         // TODO
 
