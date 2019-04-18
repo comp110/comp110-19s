@@ -6,14 +6,17 @@ export let main = async () => {
     let games: Game[] = await csvToArray("Game Data", Game);
 
     // TODO #2 filter
-    let filtered: Game[] = null;
-    
+    let filtered: Game[] = [];
+    print("Filtered");
+    print(filtered);
+
     // TODO #3 map
-    let values: number[] = null;
+    let values: number[] = [];
+    print("Values: ");
+    print(values);
     
     // TODO #4 reduce
     let result: number = 0;
-
     print("Result: " + result);
 };
 
